@@ -10,6 +10,6 @@ type GameState = {
 	turn: number
 }
 
-type Piles = [string[], string[], string[], string[], string[], string[], string[], string[]]
+type Piles = [Card[], Card[], Card[], Card[], Card[], Card[], Card[], Card[]]
 
 export type { Card, GameState, Piles }
